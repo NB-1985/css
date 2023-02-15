@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+}
+.class1{
+   
+    width: 20%;
+    border: 2px solid black;
+}
+.class2{
+    border: 2px solid black;
+    width: 60%;
+}
+.class3{
+    width: 20%;
+
+    border: 2px solid black;
+
+
+
+}
+
+/* .vh{
+    background-image: url(./IMG_3176.JPG);
+    height: 100vh;
+    background-color: black;
+} */

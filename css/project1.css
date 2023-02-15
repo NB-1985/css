@@ -1,0 +1,93 @@
+body{
+    background-image: url(./IMG_3176.JPG);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+ 
+}
+
+header{
+    height: 40px;
+    /* border: 2px solid black; */
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    /* background-color: #fff; */
+    
+}
+.logo>h1{
+    color: rgb(15, 17, 16);
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-top: 8px;
+    background-size: 30px;
+    width: 400px;
+    font-weight: bolder;
+    position: absolute;
+    left:145px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+/* .logo>img{
+    width: 10px;
+    height: 8px;
+} */
+.navbar{
+    color: black;
+    /* display: inline-block; */
+     /* border: 2px solid black; */ 
+    position: absolute;
+    margin-top: 8px;
+    right: 150px;
+    
+}
+.navbar>a{
+    color: rgb(69, 65, 65);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s;
+    
+    
+}
+.navbar>a:hover{
+    color:rgb(141, 22, 22);
+    font-weight: 700;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+h1{
+    /* border: 2px solid black; */
+    position: relative;
+    left: 200px;
+    width: 200px;
+    
+}
+
+.poem{
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 600;
+    /* display:block; */
+    /* border: 2px solid black; */
+    width: 400px; 
+    /* margin: auto; */
+    text-align: center;
+    position: relative;
+    left:70px;
+    bottom: 15px;
+    padding: 20px;
+    
+}
+footer{
+    position: fixed;
+    right:0;
+    bottom: 0;
+}

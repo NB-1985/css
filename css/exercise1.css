@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+header{
+   padding: 80px 0px;
+    padding: 80px;
+    /* width: 900px; */
+    /* border: 20px solid black; */
+    background-color: rgb(235, 8, 8);
+    text-align: center;
+   font-size: 40px;
+   font-weight: 900;
+   /* font: bolder; */
+    
+
+    /* margin: auto; */
+    
+    
+    /* font-style: italic; */
+    }
+
+header>a{
+    color: aqua;
+    text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    margin:0px 20px;
+
+    
+    /* border: 4mm ridge rgba(211, 220, 50, .6); */
+    
+}
+header>a:hover{
+    color: rgba(11, 12, 11, 0.746);
+    font-weight: 600;
+
+}
+
+ 
+
+section{
+    
+    height: 1000px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    
+    padding: 30px 0px;
+    /* or we can give padding in h1 section also it made larger h1 area we can see that with border property  as we can see in footer tag*/
+    /* or */
+    /* box-sizing: border-box; */
+    
+    /* border: 20px solid black; */
+    background-color: rgb(30, 220, 46);
+    
+}
+section>h1{
+    /* /* text-align: center;   this should also works here because it is block element otherwise we have to give text align property to its parent element */
+    color: blueviolet; 
+    /* padding:50px; */
+    font-size:40px;
+    /* border: 15px solid black; */
+    
+}
+section>img{
+    width: 800px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    /* box-sizing: border-box; */
+    
+    
+}
+
+footer{
+    background-color: rgba(200, 10, 10, 0.288);
+    font: 2rem  cursive ;
+    width: 900px;
+    margin: auto;
+   
+    text-align: center;
+     /* box-sizing: border-box; */
+     /* or */
+    padding: 70px 0px;
+   
+   
+   
+  
+    
+  
+    
+    
+}
+footer>a{
+    color: rgb(10, 13, 13);
+     font-size: 40px;
+     /* border: 15px solid black; */
+   
+   
+   
+}
